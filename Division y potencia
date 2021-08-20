@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+	int a,f,d,b,e,p;
+
+	printf("Division\n");
+	printf("Dame el numero que es el numerador:\n");
+	scanf("%d",&a);
+	printf("Dame un numero que es el denominador:\n");
+	scanf("%d",&f);
+	d=a/f;
+	printf("El resultado de la division es: %d\n",d);
+	
+	printf("Potencia\n");
+	printf("Numero base:\n");
+	scanf("%d",&b);
+	printf("Numero exponente:\n");
+	scanf("%d",&e);
+	p= pow(b,e);
+	printf("el valor elevado al cuadrado es %d\n",p);
+	
+	return 0;
+}
